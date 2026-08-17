@@ -1,0 +1,34 @@
+{
+  "bez_balansiranja": {
+    "macro_f1": 0.9621,
+    "mitm_recall": 0.756,
+    "per_class_recall": {
+      "backdoor": 0.9995,
+      "ddos": 0.9738,
+      "dos": 0.981,
+      "injection": 0.9643,
+      "mitm": 0.756,
+      "normal": 0.9989,
+      "password": 0.991,
+      "ransomware": 0.998,
+      "scanning": 0.9885,
+      "xss": 0.979
+    }
+  },
+  "sa_balansiranjem": {
+    "macro_f1": 0.9537,
+    "mitm_recall": 0.866,
+    "per_class_recall": {
+      "backdoor": 0.9995,
+      "ddos": 0.9762,
+      "dos": 0.9795,
+      "injection": 0.9635,
+      "mitm": 0.866,
+      "normal": 0.9976,
+      "password": 0.989,
+      "ransomware": 0.9982,
+      "scanning": 0.987,
+      "xss": 0.9792
+    }
+  }
+}

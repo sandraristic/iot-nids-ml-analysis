@@ -1,0 +1,71 @@
+{
+  "Random Forest": {
+    "train_time_sec": 16.1,
+    "accuracy": 0.9985,
+    "precision": 0.9976,
+    "recall": 0.9981,
+    "f1": 0.9979,
+    "roc_auc": 0.999969,
+    "confusion_matrix": [
+      [
+        57708,
+        78
+      ],
+      [
+        60,
+        32149
+      ]
+    ],
+    "n_train": null
+  },
+  "rf_feature_importance_top10": {
+    "dst_port": 0.16373923585708539,
+    "src_ip_bytes": 0.15605507118962889,
+    "proto_tcp": 0.09327662720012471,
+    "src_pkts": 0.08185481917750165,
+    "proto_udp": 0.08159530783129436,
+    "dst_pkts": 0.051758697636630276,
+    "dst_ip_bytes": 0.048021643324129906,
+    "conn_state_REJ": 0.037830480688929434,
+    "conn_state_OTH": 0.03139802767553807,
+    "dst_bytes": 0.030245317587148466
+  },
+  "XGBoost": {
+    "train_time_sec": 5.2,
+    "accuracy": 0.9969,
+    "precision": 0.9961,
+    "recall": 0.9953,
+    "f1": 0.9957,
+    "roc_auc": 0.9999,
+    "confusion_matrix": [
+      [
+        57660,
+        126
+      ],
+      [
+        152,
+        32057
+      ]
+    ],
+    "n_train": null
+  },
+  "SVM (uzorak 15k)": {
+    "train_time_sec": 13.3,
+    "accuracy": 0.9293,
+    "precision": 0.8834,
+    "recall": 0.9243,
+    "f1": 0.9034,
+    "roc_auc": 0.962431,
+    "confusion_matrix": [
+      [
+        53857,
+        3929
+      ],
+      [
+        2437,
+        29772
+      ]
+    ],
+    "n_train": null
+  }
+}

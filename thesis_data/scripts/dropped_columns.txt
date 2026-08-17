@@ -1,0 +1,22 @@
+Kolone izbačene zbog >95% placeholder ('-') vrednosti:
+  ssl_version: 99.9%
+  ssl_cipher: 99.9%
+  ssl_resumed: 99.8%
+  ssl_established: 99.8%
+  ssl_subject: 100.0%
+  ssl_issuer: 100.0%
+  http_trans_depth: 99.9%
+  http_method: 99.9%
+  http_uri: 99.9%
+  http_version: 99.9%
+  http_user_agent: 99.9%
+  http_orig_mime_types: 100.0%
+  http_resp_mime_types: 100.0%
+  weird_name: 99.7%
+  weird_addl: 99.8%
+  weird_notice: 99.7%
+
+Kolone izbačene kao identifikatori (rizik od label leakage / visoka kardinalnost):
+  ts
+  src_ip
+  dst_ip

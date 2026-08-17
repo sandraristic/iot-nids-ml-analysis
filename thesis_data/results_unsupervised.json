@@ -1,0 +1,22 @@
+{
+  "Isolation Forest": {
+    "train_time_sec": 1.0,
+    "accuracy": 0.5456,
+    "precision": 0.3669,
+    "recall": 0.3717,
+    "f1": 0.3693,
+    "roc_auc": 0.5718,
+    "confusion_matrix": [
+      [
+        37126,
+        20660
+      ],
+      [
+        20237,
+        11972
+      ]
+    ],
+    "contamination_param": 0.3579,
+    "n_train_normal_only": 231143
+  }
+}
